@@ -62,40 +62,40 @@ export function PremiumTeam() {
     const mm = gsap.matchMedia();
     mm.add('(prefers-reduced-motion: no-preference)', () => {
       const context = gsap.context(() => {
-        // Entrance animation for left column, photo, right column
+        // Smooth luxury entrance animation
         gsap.fromTo('.founders-left',
-          { x: -30, opacity: 0 },
+          { x: -24, opacity: 0 },
           {
             x: 0,
             opacity: 1,
-            duration: 0.85,
-            ease: 'power2.out',
-            scrollTrigger: { trigger: ref.current, start: 'top 82%', once: true }
+            duration: 1.05,
+            ease: 'power3.out',
+            scrollTrigger: { trigger: ref.current, start: 'top 84%', once: true }
           }
         );
 
         gsap.fromTo('.founders-center',
-          { scale: 0.92, opacity: 0, y: 25 },
+          { scale: 0.94, opacity: 0, y: 18 },
           {
             scale: 1,
             opacity: 1,
             y: 0,
-            duration: 0.9,
-            delay: 0.15,
-            ease: 'power2.out',
-            scrollTrigger: { trigger: ref.current, start: 'top 82%', once: true }
+            duration: 1.15,
+            delay: 0.12,
+            ease: 'power3.out',
+            scrollTrigger: { trigger: ref.current, start: 'top 84%', once: true }
           }
         );
 
         gsap.fromTo('.founders-right',
-          { x: 30, opacity: 0 },
+          { x: 24, opacity: 0 },
           {
             x: 0,
             opacity: 1,
-            duration: 0.85,
-            delay: 0.25,
-            ease: 'power2.out',
-            scrollTrigger: { trigger: ref.current, start: 'top 82%', once: true }
+            duration: 1.05,
+            delay: 0.22,
+            ease: 'power3.out',
+            scrollTrigger: { trigger: ref.current, start: 'top 84%', once: true }
           }
         );
 
@@ -108,9 +108,9 @@ export function PremiumTeam() {
           const counterObj = { val: startVal };
           gsap.to(counterObj, {
             val: target,
-            duration: target === 2006 ? 1.6 : 1.2,
-            ease: 'power2.out',
-            scrollTrigger: { trigger: '.founders-stats-bar', start: 'top 92%', once: true },
+            duration: target === 2006 ? 1.7 : 1.3,
+            ease: 'power3.out',
+            scrollTrigger: { trigger: '.founders-stats-bar', start: 'top 94%', once: true },
             onUpdate: () => {
               el.textContent = Math.round(counterObj.val).toString();
             },
