@@ -3,6 +3,7 @@
 > A modern, high-performance community and social club platform built for **The Friends Club N3**, Nayapalli, Bhubaneswar (Est. 2006). Designed with a refined midnight navy, forest emerald, and champagne gold aesthetic, fluid GSAP animations, community stories, membership applications, event management, and a hardened administrative dashboard.
 
 [![Built by S AKASH DORA](https://img.shields.io/badge/Architected%20%26%20Built%20By-S%20AKASH%20DORA-0b241f?style=flat&logo=react)](https://portfolio-azureakash.vercel.app/)
+[![GitHub: sakashdora](https://img.shields.io/badge/GitHub-sakashdora-181717?style=flat&logo=github)](https://github.com/sakashdora)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 [![Framework: React 19](https://img.shields.io/badge/Frontend-React%2019%20%7C%20Vite%207-61dafb?style=flat&logo=react)](https://react.dev/)
 [![Backend: Express 5](https://img.shields.io/badge/Backend-Express%205%20%7C%20Node%2024-white?style=flat&logo=express)](https://expressjs.com/)
@@ -16,6 +17,7 @@ This application was engineered, designed, and developed from the ground up by:
 
 * **Lead Architect & Developer:** **S AKASH DORA**
 * **Portfolio:** [https://portfolio-azureakash.vercel.app/](https://portfolio-azureakash.vercel.app/)
+* **GitHub Profile:** [https://github.com/sakashdora](https://github.com/sakashdora)
 * **Organization:** The Friends Club N3, Nayapalli, Bhubaneswar, Odisha, India
 * **Repository:** [https://github.com/thefriendsclub/TheFriendsClub](https://github.com/thefriendsclub/TheFriendsClub)
 
@@ -148,4 +150,4 @@ Click **Deploy**. Vercel will:
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
-© 2026 **S AKASH DORA** ([Portfolio](https://portfolio-azureakash.vercel.app/)). All rights reserved.
+© 2026 **S AKASH DORA** ([Portfolio](https://portfolio-azureakash.vercel.app/) · [GitHub](https://github.com/sakashdora)). All rights reserved.

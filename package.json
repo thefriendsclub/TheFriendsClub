@@ -5,7 +5,8 @@
   "type": "module",
   "author": {
     "name": "S AKASH DORA",
-    "url": "https://portfolio-azureakash.vercel.app/"
+    "url": "https://portfolio-azureakash.vercel.app/",
+    "github": "https://github.com/sakashdora"
   },
   "repository": {
     "type": "git",
