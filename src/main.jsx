@@ -13,7 +13,7 @@ import SceneHero from './SceneHero';
 import ClubLoader from './ClubLoader';
 import Carousel from './Carousel';
 import './refined.css';
-import { ReferenceStory, ReferenceHighlights } from './ReferenceSections';
+import { ReferenceStory } from './ReferenceSections';
 import './reference.css';
 
 const Admin = lazy(() => import('./Admin'));
@@ -341,7 +341,6 @@ function App() {
         <ReferenceStory />
 
         <PremiumTeam />
-        <ReferenceHighlights />
         <section className="reference-events" id="upcoming">
           <div className="container">
             <div data-reveal>
