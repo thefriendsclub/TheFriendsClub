@@ -126,14 +126,15 @@ export function PremiumTeam() {
     <section className="founders-section" id="founders" ref={ref} aria-label="Our founders and club at a glance">
       <div className="founders-banner">
         <div className="founders-wave-overlay" aria-hidden="true" />
-        <div className="founders-banner-svg-waves" aria-hidden="true">
-          <svg viewBox="0 0 600 400" fill="none" preserveAspectRatio="none">
-            <path d="M100 0 C 250 150, 450 80, 600 220 L 600 400 L 0 400 Z" fill="rgba(255,255,255,0.03)" />
-            <path d="M0 80 C 200 20, 380 260, 600 120" stroke="rgba(216,175,101,0.12)" strokeWidth="1.5" />
-            <path d="M50 200 C 250 140, 420 380, 600 260" stroke="rgba(216,175,101,0.08)" strokeWidth="1.5" />
-          </svg>
-        </div>
-        <div className="container founders-grid">
+        <svg className="founders-wave-svg" viewBox="0 0 1440 400" fill="none" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M 1040 0 C 1180 120, 1300 240, 1500 270 L 1500 0 Z" fill="#041611" opacity="0.55" />
+          <path d="M 1150 0 C 1240 160, 1360 260, 1500 300 L 1500 0 Z" fill="#020e0a" opacity="0.4" />
+          <path d="M 980 0 C 1120 150, 1260 250, 1480 290" stroke="rgba(216, 175, 101, 0.14)" strokeWidth="1.2" />
+          <path d="M 1080 0 C 1200 140, 1320 220, 1490 250" stroke="rgba(255, 255, 255, 0.05)" strokeWidth="1" />
+          <path d="M -50 400 C 120 320, 260 350, 390 400 Z" fill="#03140f" opacity="0.65" />
+          <path d="M -20 290 C 90 260, 200 340, 310 400 L -50 400 Z" fill="#020f0b" opacity="0.45" />
+        </svg>
+        <div className="founders-grid">
           {/* Left Column: Heading & Description */}
           <div className="founders-left">
             <div className="founders-eyebrow-wrap">
@@ -158,8 +159,8 @@ export function PremiumTeam() {
                 alt="Co-founder of The Friends Club"
                 className="founders-portrait-img"
                 loading="lazy"
-                width="260"
-                height="320"
+                width="245"
+                height="295"
               />
             </div>
           </div>
@@ -175,7 +176,7 @@ export function PremiumTeam() {
 
       {/* Bottom Stats Strip */}
       <div className="founders-stats-bar">
-        <div className="container founders-stats-grid">
+        <div className="founders-stats-grid">
           <div className="founders-stat-item">
             <div className="stat-icon-wrap" aria-hidden="true">
               <Calendar size={28} strokeWidth={1.4} />
