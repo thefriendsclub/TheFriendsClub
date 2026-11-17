@@ -159,8 +159,8 @@ export function PremiumTeam() {
                 alt="Co-founder of The Friends Club"
                 className="founders-portrait-img"
                 loading="lazy"
-                width="245"
-                height="295"
+                width="220"
+                height="265"
               />
             </div>
           </div>
